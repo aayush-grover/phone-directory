@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { enumDeclaration } from '@babel/types';
+import Header from './Header.js';
 
 
 class App extends Component {
@@ -7,9 +7,7 @@ class App extends Component {
   {
   return (
    <div>
-           <div className="header">
-             Phone Directory
-           </div>
+     <Header/>
            <button>Add</button>
            <div>
              <span>Name</span><br />

@@ -7,7 +7,14 @@ class App extends Component {
   {
   return (
    <div>
-           Phone Directory
+           <div className="header">
+             Phone Directory
+           </div>
+           <button>Add</button>
+           <div>
+             <span>Name</span><br />
+             <span>Phone</span>
+           </div>
    </div>
           
         
@@ -16,3 +23,4 @@ class App extends Component {
 }
 
 
+export default App;
